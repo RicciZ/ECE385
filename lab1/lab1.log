@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.9.18)  21 SEP 2020 09:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.9.18)  22 SEP 2020 21:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -338,11 +338,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 133--134
 
  []
 
-<timing_diagram.png, id=33, 1327.96124pt x 1436.36626pt>
+<timing_diagram.png, id=33, 1258.7025pt x 1422.31375pt>
 File: timing_diagram.png Graphic file (type png)
 <use timing_diagram.png>
 Package pdftex.def Info: timing_diagram.png  used on input line 140.
-(pdftex.def)             Requested size: 331.9895pt x 359.09068pt.
+(pdftex.def)             Requested size: 314.67485pt x 355.57758pt.
 [6]
 Underfull \hbox (badness 10000) in paragraph at lines 145--147
 
@@ -363,7 +363,7 @@ Here is how much of TeX's memory you used:
  36 hyphenation exceptions out of 8191
  30i,10n,25p,673b,308s stack positions out of 5000i,500n,10000p,200000b,80000s
 <d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on lab1.pdf (9 pages, 447802 bytes).
+Output written on lab1.pdf (9 pages, 528401 bytes).
 PDF statistics:
  73 PDF objects out of 1000 (max. 8388607)
  44 compressed objects within 1 object stream
