@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.9.18)  22 SEP 2020 21:33
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.9.18)  28 SEP 2020 21:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -11,14 +11,14 @@ Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
 (d:/texlive/2020/texmf-dist/tex/latex/base/size12.clo
 File: size12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 )
-\c@part=\count167
-\c@section=\count168
-\c@subsection=\count169
-\c@subsubsection=\count170
-\c@paragraph=\count171
-\c@subparagraph=\count172
-\c@figure=\count173
-\c@table=\count174
+\c@part=\count163
+\c@section=\count164
+\c@subsection=\count165
+\c@subsubsection=\count166
+\c@paragraph=\count167
+\c@subparagraph=\count168
+\c@figure=\count169
+\c@table=\count170
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen134
@@ -38,9 +38,9 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 ) (d:/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 105.
- (d:/texlive/2020/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+Package graphics Info: Driver file: xetex.def on input line 105.
+ (d:/texlive/2020/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2017/06/24 v5.0h Graphics/color driver for xetex
 ))
 \Gin@req@height=\dimen135
 \Gin@req@width=\dimen136
@@ -51,9 +51,9 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
  (d:/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 ))
-\Gm@cnth=\count175
-\Gm@cntv=\count176
-\c@Gm@tempcnt=\count177
+\Gm@cnth=\count171
+\Gm@cntv=\count172
+\c@Gm@tempcnt=\count173
 \Gm@bindingoffset=\dimen137
 \Gm@wd@mp=\dimen138
 \Gm@odd@mp=\dimen139
@@ -65,21 +65,21 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \Gm@dimlist=\toks16
 ) (d:/texlive/2020/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count178
+\c@float@type=\count174
 \float@exts=\toks17
 \float@box=\box45
 \@float@everytoks=\toks18
 \@floatcapt=\box46
 ) (d:/texlive/2020/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
-\c@tracingmulticols=\count179
+\c@tracingmulticols=\count175
 \mult@box=\box47
 \multicol@leftmargin=\dimen145
-\c@unbalance=\count180
-\c@collectmore=\count181
-\doublecol@number=\count182
-\multicoltolerance=\count183
-\multicolpretolerance=\count184
+\c@unbalance=\count176
+\c@collectmore=\count177
+\doublecol@number=\count178
+\multicoltolerance=\count179
+\multicolpretolerance=\count180
 \full@width=\dimen146
 \page@free=\dimen147
 \premulticols=\dimen148
@@ -130,19 +130,21 @@ Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 \@tempa=\box88
 \@tempa=\box89
 \@tempa=\box90
-\c@minrows=\count185
-\c@columnbadness=\count186
-\c@finalcolumnbadness=\count187
+\c@minrows=\count181
+\c@columnbadness=\count182
+\c@finalcolumnbadness=\count183
 \last@try=\dimen151
 \multicolovershoot=\dimen152
 \multicolundershoot=\dimen153
 \mult@nat@firstbox=\box91
 \colbreak@box=\box92
-\mc@col@check@num=\count188
-) (d:/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
-File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count189
+\mc@col@check@num=\count184
+) (d:/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-xdvipdfmx.def
+File: l3backend-xdvipdfmx.def 2020-03-12 L3 backend support: xdvipdfmx
+\g__graphics_track_int=\count185
 \l__pdf_internal_box=\box93
+\g__pdf_backend_object_int=\count186
+\g__pdf_backend_annotation_int=\count187
 ) (./lab1.aux)
 \openout1 = `lab1.aux'.
 
@@ -155,34 +157,22 @@ LaTeX Font Info:    ... okay on input line 25.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
 LaTeX Font Info:    ... okay on input line 25.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 25.
+ (d:/texlive/2020/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 25.
 LaTeX Font Info:    ... okay on input line 25.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
 LaTeX Font Info:    ... okay on input line 25.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
 LaTeX Font Info:    ... okay on input line 25.
- (d:/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count190
-\scratchdimen=\dimen154
-\scratchbox=\box94
-\nofMPsegments=\count191
-\nofMParguments=\count192
-\everyMPshowfont=\toks19
-\MPscratchCnt=\count193
-\MPscratchDim=\dimen155
-\MPnumerator=\count194
-\makeMPintoPDFobject=\count195
-\everyMPtoPDFconversion=\toks20
-) (d:/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (d:/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
-))
+
 *geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
+*geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
+* driver: xetex
 * paper: <default>
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -219,7 +209,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 26.
 [1
 
-{d:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+]
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 31.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -231,79 +221,55 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--32
 
  []
 
-<K_map.png, id=10, 379.4175pt x 296.10625pt>
-File: K_map.png Graphic file (type png)
-<use K_map.png>
-Package pdftex.def Info: K_map.png  used on input line 41.
-(pdftex.def)             Requested size: 189.70828pt x 148.05275pt.
-<lab1_partA.png, id=11, 704.6325pt x 206.27063pt>
-File: lab1_partA.png Graphic file (type png)
-<use lab1_partA.png>
-Package pdftex.def Info: lab1_partA.png  used on input line 49.
-(pdftex.def)             Requested size: 493.2394pt x 144.38844pt.
-[2 <./K_map.png (PNG copy)>]
-<lab1_partADelay.png, id=18, 1080.035pt x 375.4025pt>
-File: lab1_partADelay.png Graphic file (type png)
-<use lab1_partADelay.png>
-Package pdftex.def Info: lab1_partADelay.png  used on input line 55.
-(pdftex.def)             Requested size: 540.01619pt x 187.70079pt.
+File: K_map.png Graphic file (type bmp)
+<K_map.png>
+File: lab1_partA.png Graphic file (type bmp)
+<lab1_partA.png>
+[2]
+File: lab1_partADelay.png Graphic file (type bmp)
+<lab1_partADelay.png>
 
-Overfull \hbox (39.5322pt too wide) in paragraph at lines 55--56
+Overfull \hbox (39.53221pt too wide) in paragraph at lines 55--56
  [][] 
  []
 
-<lab1_partB.png, id=19, 1328.965pt x 424.58624pt>
-File: lab1_partB.png Graphic file (type png)
-<use lab1_partB.png>
-Package pdftex.def Info: lab1_partB.png  used on input line 61.
-(pdftex.def)             Requested size: 531.57658pt x 169.83148pt.
+File: lab1_partB.png Graphic file (type bmp)
+<lab1_partB.png>
 
-Overfull \hbox (31.09259pt too wide) in paragraph at lines 61--62
+Overfull \hbox (31.09258pt too wide) in paragraph at lines 61--62
  [][] 
  []
 
-[3 <./lab1_partA.png> <./lab1_partADelay.png (PNG copy)>]
-<lab1_partA_func_sim.png, id=23, 1885.0425pt x 191.71625pt>
-File: lab1_partA_func_sim.png Graphic file (type png)
-<use lab1_partA_func_sim.png>
-Package pdftex.def Info: lab1_partA_func_sim.png  used on input line 68.
-(pdftex.def)             Requested size: 512.1496pt x 52.08586pt.
+[3]
+File: lab1_partA_func_sim.png Graphic file (type bmp)
+<lab1_partA_func_sim.png>
 
 Overfull \hbox (11.6656pt too wide) in paragraph at lines 68--69
  [][] 
  []
 
-<lab1_partA_waveform.png, id=24, 1884.03876pt x 192.72pt>
-File: lab1_partA_waveform.png Graphic file (type png)
-<use lab1_partA_waveform.png>
-Package pdftex.def Info: lab1_partA_waveform.png  used on input line 74.
-(pdftex.def)             Requested size: 512.1496pt x 52.38797pt.
+File: lab1_partA_waveform.png Graphic file (type bmp)
+<lab1_partA_waveform.png>
 
 Overfull \hbox (11.6656pt too wide) in paragraph at lines 74--75
  [][] 
  []
 
-<lab1_partADelay_waveform.png, id=25, 1885.0425pt x 274.02374pt>
-File: lab1_partADelay_waveform.png Graphic file (type png)
-<use lab1_partADelay_waveform.png>
-Package pdftex.def Info: lab1_partADelay_waveform.png  used on input line 80.
-(pdftex.def)             Requested size: 512.1496pt x 74.44733pt.
+File: lab1_partADelay_waveform.png Graphic file (type bmp)
+<lab1_partADelay_waveform.png>
 
 Overfull \hbox (11.6656pt too wide) in paragraph at lines 80--81
  [][] 
  []
 
-<lab1_partB_waveform.png, id=26, 1884.03876pt x 274.02374pt>
-File: lab1_partB_waveform.png Graphic file (type png)
-<use lab1_partB_waveform.png>
-Package pdftex.def Info: lab1_partB_waveform.png  used on input line 86.
-(pdftex.def)             Requested size: 512.1496pt x 74.48915pt.
+File: lab1_partB_waveform.png Graphic file (type bmp)
+<lab1_partB_waveform.png>
 
 Overfull \hbox (11.6656pt too wide) in paragraph at lines 86--87
  [][] 
  []
 
-[4 <./lab1_partB.png (PNG copy)> <./lab1_partA_func_sim.png (PNG copy)> <./lab1_partA_waveform.png (PNG copy)> <./lab1_partADelay_waveform.png (PNG copy)>]
+[4]
 Underfull \hbox (badness 10000) in paragraph at lines 115--116
 
  []
@@ -313,7 +279,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 117--119
 
  []
 
-[5 <./lab1_partB_waveform.png (PNG copy)>]
+[5]
 Underfull \hbox (badness 10000) in paragraph at lines 121--122
 
  []
@@ -338,11 +304,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 133--134
 
  []
 
-<timing_diagram.png, id=33, 1258.7025pt x 1422.31375pt>
-File: timing_diagram.png Graphic file (type png)
-<use timing_diagram.png>
-Package pdftex.def Info: timing_diagram.png  used on input line 140.
-(pdftex.def)             Requested size: 314.67485pt x 355.57758pt.
+File: timing_diagram.png Graphic file (type bmp)
+<timing_diagram.png>
 [6]
 Underfull \hbox (badness 10000) in paragraph at lines 145--147
 
@@ -353,20 +316,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 148--150
 
  []
 
-[7 <./timing_diagram.png>] [8] (./lab1.bbl) [9] (./lab1.aux) ) 
+[7] [8] (./lab1.bbl) [9] (./lab1.aux) ) 
 Here is how much of TeX's memory you used:
- 2004 strings out of 482503
- 29228 string characters out of 5950824
- 273598 words of memory out of 5000000
- 17658 multiletter control sequences out of 15000+600000
- 538419 words of font info for 44 fonts, out of 8000000 for 9000
+ 1682 strings out of 481358
+ 25756 string characters out of 5927881
+ 275359 words of memory out of 5000000
+ 19082 multiletter control sequences out of 15000+600000
+ 536067 words of font info for 46 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  30i,10n,25p,673b,308s stack positions out of 5000i,500n,10000p,200000b,80000s
-<d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on lab1.pdf (9 pages, 528401 bytes).
-PDF statistics:
- 73 PDF objects out of 1000 (max. 8388607)
- 44 compressed objects within 1 object stream
- 0 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
+Output written on lab1.pdf (9 pages).
