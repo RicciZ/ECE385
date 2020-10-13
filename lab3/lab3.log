@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.9.18)  5 OCT 2020 15:58
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.9.18)  13 OCT 2020 10:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -209,16 +209,196 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 28.
 [1
 
-] [2]
-No file lab3.bbl.
-(./lab3.aux) ) 
-Here is how much of TeX's memory you used:
- 1598 strings out of 481358
- 24297 string characters out of 5927881
- 270356 words of memory out of 5000000
- 19018 multiletter control sequences out of 15000+600000
- 533323 words of font info for 36 fonts, out of 8000000 for 9000
- 36 hyphenation exceptions out of 8191
- 30i,7n,25p,198b,215s stack positions out of 5000i,500n,10000p,200000b,80000s
+]
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
 
-Output written on lab3.pdf (2 pages).
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 39.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 39.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 39.
+File: prelab.png Graphic file (type bmp)
+<prelab.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--45
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
+
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
+
+ []
+
+File: high_level_diagram.png Graphic file (type bmp)
+<high_level_diagram.png>
+
+Overfull \hbox (11.6656pt too wide) in paragraph at lines 71--72
+ [][] 
+ []
+
+File: top_level_circuit.png Graphic file (type bmp)
+<top_level_circuit.png>
+
+Overfull \hbox (11.6656pt too wide) in paragraph at lines 76--77
+ [][] 
+ []
+
+[3]
+File: state_diagram.png Graphic file (type bmp)
+<state_diagram.png>
+
+Overfull \hbox (11.6656pt too wide) in paragraph at lines 82--83
+ [][] 
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 85--87
+
+ []
+
+File: S.png Graphic file (type bmp)
+<S.png>
+[5]
+File: Q+.png Graphic file (type bmp)
+<Q+.png>
+File: C1+.png Graphic file (type bmp)
+<C1+.png>
+ [6]
+File: C0+.png Graphic file (type bmp)
+<C0+.png>
+ [7]
+File: control_unit.png Graphic file (type bmp)
+<control_unit.png>
+
+Overfull \hbox (11.6656pt too wide) in paragraph at lines 143--144
+ [][] 
+ []
+
+File: register_unit.png Graphic file (type bmp)
+<register_unit.png>
+
+Overfull \hbox (11.6656pt too wide) in paragraph at lines 148--149
+ [][] 
+ []
+
+[8]
+File: computation_unit.png Graphic file (type bmp)
+<computation_unit.png>
+File: routing_unit.png Graphic file (type bmp)
+<routing_unit.png>
+ [9] [10]
+Underfull \hbox (badness 10000) in paragraph at lines 170--171
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--173
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 174--175
+
+ []
+
+File: 0-300.png Graphic file (type bmp)
+<0-300.png>
+
+Overfull \hbox (11.6656pt too wide) in paragraph at lines 184--185
+ [][] 
+ []
+
+File: 300-600.png Graphic file (type bmp)
+<300-600.png>
+
+Overfull \hbox (11.6656pt too wide) in paragraph at lines 189--190
+ [][] 
+ []
+
+[11]
+File: 600-900.png Graphic file (type bmp)
+<600-900.png>
+
+Overfull \hbox (11.6656pt too wide) in paragraph at lines 194--195
+ [][] 
+ []
+
+File: 900-1200.png Graphic file (type bmp)
+<900-1200.png>
+
+Overfull \hbox (11.6656pt too wide) in paragraph at lines 199--200
+ [][] 
+ []
+
+File: 1200-1500.png Graphic file (type bmp)
+<1200-1500.png>
+
+Overfull \hbox (11.6656pt too wide) in paragraph at lines 204--205
+ [][] 
+ []
+
+File: 1500-1800.png Graphic file (type bmp)
+<1500-1800.png>
+
+Overfull \hbox (11.6656pt too wide) in paragraph at lines 209--210
+ [][] 
+ []
+
+[12]
+File: 1800-2100.png Graphic file (type bmp)
+<1800-2100.png>
+
+Overfull \hbox (11.6656pt too wide) in paragraph at lines 214--215
+ [][] 
+ []
+
+File: 2100-2400.png Graphic file (type bmp)
+<2100-2400.png>
+
+Overfull \hbox (11.6656pt too wide) in paragraph at lines 219--220
+ [][] 
+ []
+
+File: 2400-2700.png Graphic file (type bmp)
+<2400-2700.png>
+
+Overfull \hbox (11.6656pt too wide) in paragraph at lines 224--225
+ [][] 
+ []
+
+File: 2700-3000.png Graphic file (type bmp)
+<2700-3000.png>
+
+Overfull \hbox (11.6656pt too wide) in paragraph at lines 229--230
+ [][] 
+ []
+
+[13] [14] (./lab3.bbl) [15] (./lab3.aux) ) 
+Here is how much of TeX's memory you used:
+ 1757 strings out of 481358
+ 26545 string characters out of 5927881
+ 278364 words of memory out of 5000000
+ 19145 multiletter control sequences out of 15000+600000
+ 536059 words of font info for 45 fonts, out of 8000000 for 9000
+ 36 hyphenation exceptions out of 8191
+ 30i,8n,25p,655b,215s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on lab3.pdf (15 pages).
