@@ -1,0 +1,401 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.9.18)  21 OCT 2020 20:53
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**lab4
+(./lab4.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-03-06> (d:/texlive/2020/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+(d:/texlive/2020/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count167
+\c@section=\count168
+\c@subsection=\count169
+\c@subsubsection=\count170
+\c@paragraph=\count171
+\c@subparagraph=\count172
+\c@figure=\count173
+\c@table=\count174
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+) (d:/texlive/2020/texmf-dist/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+) (d:/texlive/2020/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+ (d:/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+) (d:/texlive/2020/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+ (d:/texlive/2020/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (d:/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+ (d:/texlive/2020/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen135
+\Gin@req@width=\dimen136
+) (d:/texlive/2020/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (d:/texlive/2020/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (d:/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count175
+\Gm@cntv=\count176
+\c@Gm@tempcnt=\count177
+\Gm@bindingoffset=\dimen137
+\Gm@wd@mp=\dimen138
+\Gm@odd@mp=\dimen139
+\Gm@even@mp=\dimen140
+\Gm@layoutwidth=\dimen141
+\Gm@layoutheight=\dimen142
+\Gm@layouthoffset=\dimen143
+\Gm@layoutvoffset=\dimen144
+\Gm@dimlist=\toks16
+) (d:/texlive/2020/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count178
+\float@exts=\toks17
+\float@box=\box45
+\@float@everytoks=\toks18
+\@floatcapt=\box46
+) (d:/texlive/2020/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
+\c@tracingmulticols=\count179
+\mult@box=\box47
+\multicol@leftmargin=\dimen145
+\c@unbalance=\count180
+\c@collectmore=\count181
+\doublecol@number=\count182
+\multicoltolerance=\count183
+\multicolpretolerance=\count184
+\full@width=\dimen146
+\page@free=\dimen147
+\premulticols=\dimen148
+\postmulticols=\dimen149
+\multicolsep=\skip49
+\multicolbaselineskip=\skip50
+\partial@page=\box48
+\last@line=\box49
+\maxbalancingoverflow=\dimen150
+\mult@rightbox=\box50
+\mult@grightbox=\box51
+\mult@gfirstbox=\box52
+\mult@firstbox=\box53
+\@tempa=\box54
+\@tempa=\box55
+\@tempa=\box56
+\@tempa=\box57
+\@tempa=\box58
+\@tempa=\box59
+\@tempa=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\c@minrows=\count185
+\c@columnbadness=\count186
+\c@finalcolumnbadness=\count187
+\last@try=\dimen151
+\multicolovershoot=\dimen152
+\multicolundershoot=\dimen153
+\mult@nat@firstbox=\box91
+\colbreak@box=\box92
+\mc@col@check@num=\count188
+) (d:/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count189
+\l__pdf_internal_box=\box93
+) (./lab4.aux)
+\openout1 = `lab4.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+ (d:/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count190
+\scratchdimen=\dimen154
+\scratchbox=\box94
+\nofMPsegments=\count191
+\nofMParguments=\count192
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count193
+\MPscratchDim=\dimen155
+\MPnumerator=\count194
+\makeMPintoPDFobject=\count195
+\everyMPtoPDFconversion=\toks20
+) (d:/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (d:/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(56.9055pt, 500.484pt, 56.9055pt)
+* v-part:(T,H,B)=(71.13188pt, 652.70622pt, 71.13188pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=500.484pt
+* \textheight=652.70622pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-38.1381pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 28.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 28.
+[1
+
+{d:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+<toplevel_block_diagram.png, id=10, 333.04425pt x 215.6055pt>
+File: toplevel_block_diagram.png Graphic file (type png)
+<use toplevel_block_diagram.png>
+Package pdftex.def Info: toplevel_block_diagram.png  used on input line 41.
+(pdftex.def)             Requested size: 333.04343pt x 215.60497pt.
+<toplevel_RTL.png, id=12, 392.667pt x 324.61275pt>
+File: toplevel_RTL.png Graphic file (type png)
+<use toplevel_RTL.png>
+Package pdftex.def Info: toplevel_RTL.png  used on input line 47.
+(pdftex.def)             Requested size: 392.66605pt x 324.61194pt.
+ [2 <./toplevel_block_diagram.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
+
+ []
+
+<processor_simulation.png, id=17, 420.97275pt x 408.3255pt>
+File: processor_simulation.png Graphic file (type png)
+<use processor_simulation.png>
+Package pdftex.def Info: processor_simulation.png  used on input line 59.
+(pdftex.def)             Requested size: 420.97171pt x 408.3245pt.
+[3 <./toplevel_RTL.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
+
+ []
+
+<full_adder.png, id=22, 573.342pt x 297.5115pt>
+File: full_adder.png Graphic file (type png)
+<use full_adder.png>
+Package pdftex.def Info: full_adder.png  used on input line 71.
+(pdftex.def)             Requested size: 426.79134pt x 221.4761pt.
+[4 <./processor_simulation.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 75--76
+
+ []
+
+<N_bit_CRA.png, id=27, 760.64175pt x 205.36725pt>
+File: N_bit_CRA.png Graphic file (type png)
+<use N_bit_CRA.png>
+Package pdftex.def Info: N_bit_CRA.png  used on input line 81.
+(pdftex.def)             Requested size: 512.1496pt x 138.27847pt.
+
+Overfull \hbox (11.6656pt too wide) in paragraph at lines 81--82
+ [][] 
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 82.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 82.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 82.
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--87
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
+
+ []
+
+[5 <./full_adder.png> <./N_bit_CRA.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
+
+ []
+
+<N_bit_CLA.png, id=37, 490.83376pt x 216.20775pt>
+File: N_bit_CLA.png Graphic file (type png)
+<use N_bit_CLA.png>
+Package pdftex.def Info: N_bit_CLA.png  used on input line 96.
+(pdftex.def)             Requested size: 426.79134pt x 188.00354pt.
+<CLA_4bit.png, id=38, 991.3035pt x 523.9575pt>
+File: CLA_4bit.png Graphic file (type png)
+<use CLA_4bit.png>
+Package pdftex.def Info: CLA_4bit.png  used on input line 102.
+(pdftex.def)             Requested size: 426.79134pt x 225.58514pt.
+[6 <./N_bit_CLA.png> <./CLA_4bit.png>]
+<4x4_CLA.png, id=44, 454.0965pt x 268.00125pt>
+File: 4x4_CLA.png Graphic file (type png)
+<use 4x4_CLA.png>
+Package pdftex.def Info: 4x4_CLA.png  used on input line 110.
+(pdftex.def)             Requested size: 341.43306pt x 201.5075pt.
+<CLA_top.png, id=45, 698.61pt x 566.115pt>
+File: CLA_top.png Graphic file (type png)
+<use CLA_top.png>
+Package pdftex.def Info: CLA_top.png  used on input line 116.
+(pdftex.def)             Requested size: 426.79134pt x 345.84793pt.
+ [7 <./4x4_CLA.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
+
+ []
+
+<16_bit_CSA.png, id=51, 703.428pt x 217.41225pt>
+File: 16_bit_CSA.png Graphic file (type png)
+<use 16_bit_CSA.png>
+Package pdftex.def Info: 16_bit_CSA.png  used on input line 127.
+(pdftex.def)             Requested size: 426.79134pt x 131.91133pt.
+[8 <./CLA_top.png>]
+<CSA_RTL.png, id=56, 1095.49275pt x 335.45325pt>
+File: CSA_RTL.png Graphic file (type png)
+<use CSA_RTL.png>
+Package pdftex.def Info: CSA_RTL.png  used on input line 133.
+(pdftex.def)             Requested size: 512.1496pt x 156.83382pt.
+
+Overfull \hbox (11.6656pt too wide) in paragraph at lines 133--134
+ [][] 
+ []
+
+
+Overfull \hbox (24.00002pt too wide) in paragraph at lines 139--212
+[][] 
+ []
+
+[9 <./16_bit_CSA.png> <./CSA_RTL.png>]
+Overfull \vbox (24.44315pt too high) has occurred while \output is active []
+
+ [10]
+<prelab.png, id=65, 362.007pt x 217.467pt>
+File: prelab.png Graphic file (type png)
+<use prelab.png>
+Package pdftex.def Info: prelab.png  used on input line 220.
+(pdftex.def)             Requested size: 362.00612pt x 217.46645pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 225--226
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 227--230
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 231--232
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 233--234
+
+ []
+
+[11 <./prelab.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 256--260
+
+ []
+
+[12] [13] (./lab4.bbl) [14] (./lab4.aux) ) 
+Here is how much of TeX's memory you used:
+ 2023 strings out of 482503
+ 29323 string characters out of 5950824
+ 276650 words of memory out of 5000000
+ 17674 multiletter control sequences out of 15000+600000
+ 538419 words of font info for 44 fonts, out of 8000000 for 9000
+ 36 hyphenation exceptions out of 8191
+ 30i,17n,25p,747b,302s stack positions out of 5000i,500n,10000p,200000b,80000s
+<d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on lab4.pdf (14 pages, 1145490 bytes).
+PDF statistics:
+ 107 PDF objects out of 1000 (max. 8388607)
+ 58 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+
