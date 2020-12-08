@@ -26,3 +26,13 @@
 ### lab7
 - nios2
 - eclipse
+
+### lab8
+- Universal Serial Bus (USB)
+    - keyboard
+- Cypress EZ-OTG (CY7C67200) USB controller
+- Host Port Interface (HPI)
+- VGA
+
+### lab9
+- Advanced Encryption Standard (AES)
