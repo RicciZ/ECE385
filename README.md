@@ -26,6 +26,7 @@
 ### lab7
 - nios2
 - eclipse
+- LED blink
 
 ### lab8
 - Universal Serial Bus (USB)
