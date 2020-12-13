@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.9.18)  8 DEC 2020 23:25
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.9.18)  9 DEC 2020 18:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -317,57 +317,70 @@ Underfull \hbox (badness 10000) in paragraph at lines 140--146
 
  []
 
+File: platform.png Graphic file (type bmp)
+<platform.png>
+
+Overfull \hbox (11.6656pt too wide) in paragraph at lines 149--150
+ [][] 
+ []
+
+[7]
+File: AES_decryption_core.png Graphic file (type bmp)
+<AES_decryption_core.png>
+ [8]
+File: timer.png Graphic file (type bmp)
+<timer.png>
 File: simulation1.png Graphic file (type bmp)
 <simulation1.png>
 
-Overfull \hbox (11.6656pt too wide) in paragraph at lines 150--151
+Overfull \hbox (11.6656pt too wide) in paragraph at lines 174--175
  [][] 
  []
 
 File: simulation2.png Graphic file (type bmp)
 <simulation2.png>
 
-Overfull \hbox (11.6656pt too wide) in paragraph at lines 155--156
+Overfull \hbox (11.6656pt too wide) in paragraph at lines 179--180
  [][] 
  []
 
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 158--172
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 182--196
 
  []
 
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 195--196
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 219--220
 
  []
 
 File: benchmark.png Graphic file (type bmp)
 <benchmark.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 197--202
+Underfull \hbox (badness 10000) in paragraph at lines 221--226
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 204--205
+Underfull \hbox (badness 10000) in paragraph at lines 228--229
 
  []
 
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 206--207
+
+Underfull \hbox (badness 10000) in paragraph at lines 230--231
 
  []
 
-[10]
+[11] [12]
 No file lab9.bbl.
 (./lab9.aux) ) 
 Here is how much of TeX's memory you used:
- 1828 strings out of 481358
- 27511 string characters out of 5927881
+ 1846 strings out of 481358
+ 27811 string characters out of 5927881
  276537 words of memory out of 5000000
- 19226 multiletter control sequences out of 15000+600000
+ 19241 multiletter control sequences out of 15000+600000
  536067 words of font info for 46 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  30i,8n,26p,1044b,215s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on lab9.pdf (10 pages).
+Output written on lab9.pdf (12 pages).

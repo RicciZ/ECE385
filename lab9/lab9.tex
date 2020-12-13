@@ -144,6 +144,30 @@ The inner FSM is the whole process of decryption. It stays in Stop state until t
 \textbf{Description}: It connects the signal of all the hardwares. \\ 
 \textbf{Purpose}: This is the top level module for lab9. \\
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=18cm]{platform.png}
+    \caption{Platform designer view.}
+\end{figure}
+
+This is the hardware platform for our lab9 design. We build this platform by deleting the otg\_hpi modules and keycode module and adding AES\_Decryption\_core\_0 and TIMER modules on the basis of the platform of lab8. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=10cm]{AES_decryption_core.png}
+    \caption{AES\_Decryption\_core\_0 instance.}
+\end{figure}
+
+AES\_Decryption\_core\_0 is an IP we made based on the avalon\_aes\_interface module. It is controlled by the NIOS-II through signals in Avalon-MM bus. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=8cm]{timer.png}
+    \caption{Timer instance.}
+\end{figure}
+
+TIMER module is used to measure the encryption and decryption time by sending periodic interrupts.
+
 \section{Annotated Simulation of the AES Decryptor}
 \begin{figure}[H]
     \centering
