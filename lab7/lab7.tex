@@ -145,7 +145,7 @@ Answer: Because SDRAM has to preserve the contents, otherwise the charges in the
 
 Question: make sure this is consistent with your above numbers; you will need to justify how you came up with 1 Gbit to your TA. \\
 
-Answer: 32 bits * 2\^13 * 2\^10 * 4 * 2 = 1 Gbit \\
+Answer: $32 bits * 2^{13} * 2^{10} * 4 * 2 = 1 Gbit$ \\
 
 Question: What is the maximum theoretical transfer rate to the SDRAM according to the timings given? \\
 
@@ -167,11 +167,11 @@ Question: Look at the various segment (.bss, .heap, .rodata, .rwdata, .stack, .t
 
 
 Answer: \\
-bss:		a global variable not initialized to a specific value \\
+.bss:		a global variable not initialized to a specific value \\
 Code:		int i; \\
 
 .heap:		memory which is allocated on heap \\
-Code:		int *ptr = (int*)malloc(sizeOf(int)); \\
+Code:		int *ptr = (int*)malloc(sizeof(int)); \\
 
 .rodata: 	read only data, const \\
 Code:		const int i = 3; \\
