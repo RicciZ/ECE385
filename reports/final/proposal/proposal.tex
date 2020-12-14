@@ -1,0 +1,74 @@
+\documentclass[12pt]{article}
+\usepackage{cite}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{float}
+\usepackage{multicol}
+\usepackage{subfigure}
+
+\geometry{left=2.0cm,right=2.0cm,top=2.5cm,bottom=2.5cm}
+
+\title{
+    \textbf{\Huge ECE385} \\
+    \huge Fall 2020 \\
+    \huge Final Proposal \\[120pt]
+    \textbf{\Huge Game: I Wanna Get an A in ECE385} \\[120pt]
+    }
+
+\author{
+    \large Name: Zhou Qinren \\ 
+            \quad\qquad Zhang Yichi \\ 
+    \large Lab Section: LA3 \\ 
+    \large TA's Name: Yu Yuqi
+    }
+
+\date{Dec. $6^{th}$ 2020}
+
+\begin{document}
+\setlength{\parindent}{0pt}
+\maketitle
+\newpage
+
+\section{Idea and Overview}
+We intend to design and implement the game I Wanna on the FPGA. This is a traditional series of game where fans design and develop their own and let others play. They usually add phrases after I wanna to name their games so we plan to call our game I wanna get an A in ECE385. In the game, we control the character Kid to move and avoid the traps (some might be invisible or jumping out). Therefore, the core functions will be keyboard interaction, display and control logic. keyboard interaction will be built on both the software (C code) and the hardware (SystemVerilog), the NIOS-II and EZ-OTG, like lab8. The display module will be built on the frame buffer (background), fixed function (character and traps) and the VGA module. The control logic consists of the death counter, draw module, color mapper, motion control, sound control and collision check will all be implemented in hardware.
+
+\section{Block Diagram}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=17cm]{blockdiagram.png}
+    \caption{Block diagram for our design.}
+\end{figure}
+
+The control logic will be implemented in the hardware. We plan to do interaction with the FPGA with the SDRAM, monitor, loudspeaker and keyboard. The above figure is the brief interaction sketch.
+
+\section{List of Features}
+Base-line: \\
+The game will be in color. \\
+The game will have a death counter which counts the number of deaths. \\
+The player can control the motion of Kid (protagonist of the game). \\
+The game will have correct death check and collision check, which guarantee the game experience. \\
+
+Additional: \\
+The game will have some sound effects, which might be triggered by player behavior. \\
+Kid (protagonist of the game) can shoot at the enemies or barriers. \\
+The game has some checkpoints, where player can load the slots. \\
+The player can choose difficulty level. \\
+Some traps are set in the game which might surprise or annoy the player. 
+
+\section{Expected Difficulty}
+The baseline functions should be 5/10, because the game has many condition checks, such as checking the boundary, death threats or trap trigger. The game also has a death counter, which counts the times of death. The protagonist will behave exactly as the player wanted. \\
+
+With the whole additional feature, our game should be rated 9/10, because the protagonist has the extra ability of shooting, and we also add some checkpoints from which the player can start the game. We also include the sound effect. Moreover, the game has many traps, which takes much time to design and modify.
+
+\section{Proposed Timeline}
+week1: VGA display, death counter and motion control \\
+week2: death/collision check, checkpoints, traps \\
+week3: sound, shoot, difficulty level selection \\
+week4: optimization, debug \\
+By mid-project checkpoint, we propose to finish all the tasks in baseline (i.e. VGA display, death counter, motion control and death/collision check).
+
+
+\newpage
+\bibliography{}
+\bibliographystyle{ieeetr}
+\end{document}
