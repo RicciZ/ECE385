@@ -31,7 +31,7 @@ module  ball ( input         Clk,                // 50 MHz clock
     parameter [9:0] Ball_Y_Max = 10'd479;     // Bottommost point on the Y axis
     parameter [9:0] Ball_X_Step = 10'd1;      // Step size on the X axis
     parameter [9:0] Ball_Y_Step = 10'd1;      // Step size on the Y axis
-    parameter [9:0] Ball_Size = 10'd4;        // Ball size
+    parameter [9:0] Ball_Size = 10'd8;        // Ball size
     
     logic [9:0] Ball_X_Pos, Ball_X_Motion, Ball_Y_Pos, Ball_Y_Motion;
     logic [9:0] Ball_X_Pos_in, Ball_X_Motion_in, Ball_Y_Pos_in, Ball_Y_Motion_in;
@@ -69,8 +69,8 @@ module  ball ( input         Clk,                // 50 MHz clock
         // By default, keep motion and position unchanged
         Ball_X_Pos_in = Ball_X_Pos;
         Ball_Y_Pos_in = Ball_Y_Pos;
-        Ball_X_Motion_in = Ball_X_Motion;
-        Ball_Y_Motion_in = Ball_Y_Motion;
+        Ball_X_Motion_in = 10'b0;
+        Ball_Y_Motion_in = 10'b0;
 		  
 		  LEDG = 4'b0;
 		  if (Ball_Y_Motion == (~(Ball_Y_Step) + 1'b1))
@@ -133,8 +133,8 @@ module  ball ( input         Clk,                // 50 MHz clock
 						Ball_Y_Motion_in = 10'b0;
 					end
             // Update the ball's position with its motion
-            Ball_X_Pos_in = Ball_X_Pos + Ball_X_Motion;
-            Ball_Y_Pos_in = Ball_Y_Pos + Ball_Y_Motion;
+            Ball_X_Pos_in = Ball_X_Pos + Ball_X_Motion_in;
+            Ball_Y_Pos_in = Ball_Y_Pos + Ball_Y_Motion_in;
         end
         
         /**************************************************************************************

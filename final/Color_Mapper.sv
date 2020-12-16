@@ -14,28 +14,78 @@
 //-------------------------------------------------------------------------
 
 // color_mapper: Decide which color to be output to VGA for each pixel.
-module  color_mapper ( input              is_ball,            // Whether current pixel belongs to ball 
-                                                              //   or background (computed in ball.sv)
-                       input        [9:0] DrawX, DrawY,       // Current pixel coordinates
-                       output logic [7:0] VGA_R, VGA_G, VGA_B // VGA RGB output
+module  color_mapper ( input  logic Clk,
+                       input 	logic [9:0] man_x,man_y,
+							  input  logic [9:0] DrawX, DrawY,
+                       output logic [7:0] VGA_R, VGA_G, VGA_B
                      );
+							
     
+	 testRAM test(.*,.read_address(x+(y*10'd40)),.data_Out(color));
+							
+	
     logic [7:0] Red, Green, Blue;
+    logic [10:0] x,y;
+    logic [3:0] color;
     
     // Output colors to VGA
     assign VGA_R = Red;
     assign VGA_G = Green;
     assign VGA_B = Blue;
+	 
+	 always_comb
+	 begin
+			x = 10'd0;
+			y = 10'd0;
+			if (DrawX-man_x < 10'd40 && DrawY-man_y < 10'd40)
+			begin
+				x = DrawX-man_x;
+				y = DrawY-man_y;
+			end
+	 end
     
     // Assign color based on is_ball signal
     always_comb
     begin
-        if (is_ball == 1'b1) 
+        if (x > 10'd0 && y > 10'd0) 
         begin
-            // White ball
-            Red = 8'hff;
-            Green = 8'hff;
-            Blue = 8'hff;
+            case (color)
+            4'b0001:
+                begin
+                // White ball
+                Red = 8'hff;
+                Green = 8'hec;
+                Blue = 8'h00;
+                end
+            4'b0010:
+                begin
+                // White ball
+                Red = 8'h00;
+                Green = 8'h00;
+                Blue = 8'h00;
+                end
+            4'b0011:
+                begin
+                // White ball
+                Red = 8'hff;
+                Green = 8'hff;
+                Blue = 8'hff;
+                end
+            4'b0100:
+                begin
+                // White ball
+                Red = 8'hf6;
+                Green = 8'h77;
+                Blue = 8'h00;
+                end
+            default:
+                begin
+                // White ball
+                Red = 8'h3f; 
+                Green = 8'h00;
+                Blue = 8'h7f - {1'b0, DrawX[9:3]};
+            end
+				endcase
         end
         else 
         begin

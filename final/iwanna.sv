@@ -47,9 +47,11 @@ module iwanna( input               CLOCK_50,
                                  DRAM_CLK      //SDRAM Clock
                     );
     
-    logic Reset_h, Clk, is_ball;
+    logic Reset_h, Clk;
     logic [7:0] keycode;
-    logic [9:0] DrawX,DrawY;
+    logic [9:0] DrawX,DrawY,man_x,man_y;
+	 logic [1:0] move;
+	 logic jump;
 	 
     assign Clk = CLOCK_50;
     always_ff @ (posedge Clk) begin
@@ -112,16 +114,19 @@ module iwanna( input               CLOCK_50,
     // TODO: Fill in the connections for the rest of the modules 
     VGA_controller vga_controller_instance(.*,.Reset(Reset_h));
     
-    // Which signal should be frame_clk?
-    ball ball_instance(.*,
-							  .Reset(Reset_h),
-							  .frame_clk(VGA_VS));
-    
     color_mapper color_instance(.*);
     
     // Display keycode on hex display
     HexDriver hex_inst_0 (keycode[3:0], HEX0);
     HexDriver hex_inst_1 (keycode[7:4], HEX1);
+	 
+	 keycode_to_move_jump ktmj(.*);
+	 man man0(.*,
+				 .Reset(Reset_h),
+				 .frame_clk(VGA_VS),
+				 .barrier(4'b0111),
+				 );
+	 
     
     /**************************************************************************************
         ATTENTION! Please answer the following quesiton in your lab report! Points will be allocated for the answers!

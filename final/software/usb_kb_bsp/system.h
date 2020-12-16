@@ -4,7 +4,7 @@
  * Machine generated for CPU 'nios2_gen2_0' in SOPC Builder design 'iwanna_soc'
  * SOPC Builder design path: ../../iwanna_soc.sopcinfo
  *
- * Generated: Mon Dec 14 20:25:45 CST 2020
+ * Generated: Tue Dec 15 16:08:07 CST 2020
  */
 
 /*
