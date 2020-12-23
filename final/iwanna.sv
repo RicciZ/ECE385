@@ -47,11 +47,13 @@ module iwanna( input               CLOCK_50,
                                  DRAM_CLK      //SDRAM Clock
                     );
     
-    logic Reset_h, Clk;
-    logic [7:0] keycode;
-    logic [9:0] DrawX,DrawY,man_x,man_y;
+    logic Reset_h,Clk,jump,is_right,is_block,is_spike,is_check,is_dead,dead,check,
+			 shoot,restart,checking,frame_clk;
+    logic [31:0] keycode;
+    logic [9:0] DrawX,DrawY,man_x,man_y,map_x,map_y,check_x,check_y;
 	 logic [1:0] move;
-	 logic jump;
+	 logic [1:0] man_state,man_graph_counter;
+	 logic [3:0] barrier,tenths,ones;
 	 
     assign Clk = CLOCK_50;
     always_ff @ (posedge Clk) begin
@@ -115,17 +117,15 @@ module iwanna( input               CLOCK_50,
     VGA_controller vga_controller_instance(.*,.Reset(Reset_h));
     
     color_mapper color_instance(.*);
-    
     // Display keycode on hex display
     HexDriver hex_inst_0 (keycode[3:0], HEX0);
     HexDriver hex_inst_1 (keycode[7:4], HEX1);
 	 
-	 keycode_to_move_jump ktmj(.*);
-	 man man0(.*,
-				 .Reset(Reset_h),
-				 .frame_clk(VGA_VS),
-				 .barrier(4'b0111),
-				 );
+	 keycodeDecoder 	kcd(.*,.Reset(Reset_h));
+	 man 					man0(.*,.Reset(Reset_h),.frame_clk(VGA_VS));
+	 map 					map0(.*);
+	 death_counter    deathcounter0(.*,.Reset(Reset_h));
+//	 frameClk 			frameclk0(.*,.Reset(Reset_h));
 	 
     
     /**************************************************************************************
