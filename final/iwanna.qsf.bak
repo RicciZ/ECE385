@@ -1,0 +1,191 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2018  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
+# Date created = 20:10:47  December 14, 2020
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		iwanna_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE115F29C7
+set_global_assignment -name TOP_LEVEL_ENTITY iwanna
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 18.0.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "20:10:47  DECEMBER 14, 2020"
+set_global_assignment -name LAST_QUARTUS_VERSION "18.0.0 Lite Edition"
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name SYSTEMVERILOG_FILE ram.sv
+set_global_assignment -name QIP_FILE iwanna_soc/synthesis/iwanna_soc.qip
+set_global_assignment -name QIP_FILE vga_clk.qip
+set_global_assignment -name SYSTEMVERILOG_FILE VGA_controller.sv
+set_global_assignment -name SYSTEMVERILOG_FILE iwanna.sv
+set_global_assignment -name SYSTEMVERILOG_FILE hpi_io_intf.sv
+set_global_assignment -name SYSTEMVERILOG_FILE HexDriver.sv
+set_global_assignment -name SYSTEMVERILOG_FILE Color_Mapper.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ball.sv
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_instance_assignment -name IO_STANDARD "2.5 V" -to CLOCK_50
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DRAM_ADDR[12]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DRAM_ADDR[11]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DRAM_ADDR[10]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DRAM_ADDR[9]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DRAM_ADDR[8]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DRAM_ADDR[7]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DRAM_ADDR[6]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DRAM_ADDR[5]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DRAM_ADDR[4]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DRAM_ADDR[3]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DRAM_ADDR[2]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DRAM_ADDR[1]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DRAM_ADDR[0]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DRAM_BA[1]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DRAM_BA[0]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DRAM_CAS_N
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DRAM_CKE
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DRAM_CLK
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DRAM_CS_N
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DRAM_DQ[31]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DRAM_DQ[30]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DRAM_DQ[29]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DRAM_DQ[28]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DRAM_DQ[27]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DRAM_DQ[26]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DRAM_DQ[25]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DRAM_DQ[24]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DRAM_DQ[23]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DRAM_DQ[22]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DRAM_DQ[21]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DRAM_DQ[20]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DRAM_DQ[19]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DRAM_DQ[18]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DRAM_DQ[17]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DRAM_DQ[16]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DRAM_DQ[15]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DRAM_DQ[14]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DRAM_DQ[13]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DRAM_DQ[12]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DRAM_DQ[11]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DRAM_DQ[10]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DRAM_DQ[9]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DRAM_DQ[8]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DRAM_DQ[7]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DRAM_DQ[6]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DRAM_DQ[5]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DRAM_DQ[4]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DRAM_DQ[3]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DRAM_DQ[2]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DRAM_DQ[1]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DRAM_DQ[0]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DRAM_DQM[3]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DRAM_DQM[2]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DRAM_DQM[1]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DRAM_DQM[0]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DRAM_RAS_N
+set_instance_assignment -name IO_STANDARD "2.5 V" -to DRAM_WE_N
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX0[6]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX0[5]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX0[4]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX0[3]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX0[2]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX0[1]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX0[0]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX1[6]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX1[5]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX1[4]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX1[3]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX1[2]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX1[1]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX1[0]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to KEY[3]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to KEY[2]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to KEY[1]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to KEY[0]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to LEDG[3]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to LEDG[2]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to LEDG[1]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to LEDG[0]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to OTG_ADDR[1]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to OTG_ADDR[0]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to OTG_CS_N
+set_instance_assignment -name IO_STANDARD "2.5 V" -to OTG_DATA[15]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to OTG_DATA[14]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to OTG_DATA[13]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to OTG_DATA[12]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to OTG_DATA[11]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to OTG_DATA[10]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to OTG_DATA[9]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to OTG_DATA[8]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to OTG_DATA[7]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to OTG_DATA[6]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to OTG_DATA[5]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to OTG_DATA[4]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to OTG_DATA[3]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to OTG_DATA[2]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to OTG_DATA[1]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to OTG_DATA[0]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to OTG_INT
+set_instance_assignment -name IO_STANDARD "2.5 V" -to OTG_RD_N
+set_instance_assignment -name IO_STANDARD "2.5 V" -to OTG_RST_N
+set_instance_assignment -name IO_STANDARD "2.5 V" -to OTG_WR_N
+set_instance_assignment -name IO_STANDARD "2.5 V" -to VGA_B[7]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to VGA_B[6]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to VGA_B[5]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to VGA_B[4]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to VGA_B[3]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to VGA_B[2]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to VGA_B[1]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to VGA_B[0]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to VGA_BLANK_N
+set_instance_assignment -name IO_STANDARD "2.5 V" -to VGA_CLK
+set_instance_assignment -name IO_STANDARD "2.5 V" -to VGA_G[7]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to VGA_G[6]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to VGA_G[5]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to VGA_G[4]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to VGA_G[3]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to VGA_G[2]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to VGA_G[1]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to VGA_G[0]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to VGA_HS
+set_instance_assignment -name IO_STANDARD "2.5 V" -to VGA_R[7]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to VGA_R[6]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to VGA_R[5]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to VGA_R[4]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to VGA_R[3]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to VGA_R[2]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to VGA_R[1]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to VGA_R[0]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to VGA_SYNC_N
+set_instance_assignment -name IO_STANDARD "2.5 V" -to VGA_VS
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85

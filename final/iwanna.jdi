@@ -3,7 +3,7 @@
     <hash md5_digest_80b="02b3ec3f40ee176a7809"/>
   </project>
   <file_info>
-    <file device="EP4CE6F17C6" path="iwanna.sof" usercode="0xFFFFFFFF"/>
+    <file device="EP4CE115F29C7" path="iwanna.sof" usercode="0xFFFFFFFF"/>
   </file_info>
   <hub_info hub_ir_width="5" ir_width="2" node_addr_width="2" node_count="2"/>
   <node_info>
