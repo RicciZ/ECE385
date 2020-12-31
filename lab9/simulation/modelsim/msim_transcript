@@ -1,0 +1,149 @@
+# Reading D:/Quartus/modelsim_ase/tcl/vsim/pref.tcl
+# ERROR: No extended dataflow license exists
+# do lab9_run_msim_rtl_systemverilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying D:/Quartus/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlib lab9_soc
+# ** Warning: (vlib-34) Library already exists at "lab9_soc".
+# vmap lab9_soc lab9_soc
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap lab9_soc lab9_soc 
+# Modifying modelsim.ini
+# vlog -sv -work lab9_soc +incdir+D:/Quartus/ECE385/lab9/lab9_soc/synthesis/submodules {D:/Quartus/ECE385/lab9/lab9_soc/synthesis/submodules/avalon_aes_interface.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:38:46 on Dec 08,2020
+# vlog -reportprogress 300 -sv -work lab9_soc "+incdir+D:/Quartus/ECE385/lab9/lab9_soc/synthesis/submodules" D:/Quartus/ECE385/lab9/lab9_soc/synthesis/submodules/avalon_aes_interface.sv 
+# -- Compiling module avalon_aes_interface
+# 
+# Top level modules:
+# 	avalon_aes_interface
+# End time: 21:38:46 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Quartus/ECE385/lab9 {D:/Quartus/ECE385/lab9/SubBytes.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:38:46 on Dec 08,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Quartus/ECE385/lab9" D:/Quartus/ECE385/lab9/SubBytes.sv 
+# -- Compiling module SubBytes
+# -- Compiling module InvSubBytes
+# -- Compiling module InvSubState
+# 
+# Top level modules:
+# 	SubBytes
+# 	InvSubState
+# End time: 21:38:46 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Quartus/ECE385/lab9 {D:/Quartus/ECE385/lab9/InvShiftRows.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:38:46 on Dec 08,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Quartus/ECE385/lab9" D:/Quartus/ECE385/lab9/InvShiftRows.sv 
+# -- Compiling module InvShiftRows
+# 
+# Top level modules:
+# 	InvShiftRows
+# End time: 21:38:46 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Quartus/ECE385/lab9 {D:/Quartus/ECE385/lab9/InvMixColumns.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:38:46 on Dec 08,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Quartus/ECE385/lab9" D:/Quartus/ECE385/lab9/InvMixColumns.sv 
+# -- Compiling module InvMixColumns
+# -- Compiling package InvMixColumns_sv_unit
+# -- Compiling module GF_Mul_9
+# -- Compiling module GF_Mul_b
+# -- Compiling module GF_Mul_d
+# -- Compiling module GF_Mul_e
+# 
+# Top level modules:
+# 	InvMixColumns
+# End time: 21:38:46 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Quartus/ECE385/lab9 {D:/Quartus/ECE385/lab9/AddRoundKey.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:38:46 on Dec 08,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Quartus/ECE385/lab9" D:/Quartus/ECE385/lab9/AddRoundKey.sv 
+# -- Compiling module AddRoundKey
+# 
+# Top level modules:
+# 	AddRoundKey
+# End time: 21:38:46 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Quartus/ECE385/lab9 {D:/Quartus/ECE385/lab9/counters.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:38:46 on Dec 08,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Quartus/ECE385/lab9" D:/Quartus/ECE385/lab9/counters.sv 
+# -- Compiling module counter
+# 
+# Top level modules:
+# 	counter
+# End time: 21:38:46 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Quartus/ECE385/lab9 {D:/Quartus/ECE385/lab9/KeyExpansion.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:38:46 on Dec 08,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Quartus/ECE385/lab9" D:/Quartus/ECE385/lab9/KeyExpansion.sv 
+# -- Compiling module KeyExpansion
+# -- Compiling module KeyExpansionOne
+# 
+# Top level modules:
+# 	KeyExpansion
+# End time: 21:38:47 on Dec 08,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/Quartus/ECE385/lab9 {D:/Quartus/ECE385/lab9/AES.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:38:47 on Dec 08,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Quartus/ECE385/lab9" D:/Quartus/ECE385/lab9/AES.sv 
+# -- Compiling module AES
+# 
+# Top level modules:
+# 	AES
+# End time: 21:38:47 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+D:/Quartus/ECE385/lab9 {D:/Quartus/ECE385/lab9/testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:38:47 on Dec 08,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/Quartus/ECE385/lab9" D:/Quartus/ECE385/lab9/testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 21:38:47 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -L lab9_soc -voptargs="+acc"  testbench
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -L lab9_soc -voptargs=""+acc"" testbench 
+# Start time: 21:38:47 on Dec 08,2020
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.AES
+# Loading work.KeyExpansion
+# Loading work.KeyExpansionOne
+# Loading work.SubBytes
+# Loading work.counter
+# Loading work.InvShiftRows
+# Loading work.InvSubState
+# Loading work.InvSubBytes
+# Loading work.AddRoundKey
+# Loading work.InvMixColumns
+# Loading work.InvMixColumns_sv_unit
+# Loading work.GF_Mul_9
+# Loading work.GF_Mul_b
+# Loading work.GF_Mul_d
+# Loading work.GF_Mul_e
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 2000 ns
+# End time: 21:48:43 on Dec 08,2020, Elapsed time: 0:09:56
+# Errors: 0, Warnings: 0
