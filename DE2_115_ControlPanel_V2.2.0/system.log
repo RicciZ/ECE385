@@ -1,0 +1,11 @@
+[System]
+Quartus Version(x32 Registry)=0
+Quartus Version(x64 Registry)=18
+Quartus Version(TERASIC_DOWNLOAD.DLL)=0
+OS=Win8
+QUARTUS_ROOTDIR=D:\Quartus\quartus
+SOPC_KIT_NIOS2=D:\Quartus\nios2eds
+QuartusBin64=D:\Quartus\quartus\bin64
+QuartusBin32=
+QuartusBin=D:\Quartus\quartus\bin64
+QSYS_ROOTDIR=D:\Quartus\quartus\sopc_builder\bin
