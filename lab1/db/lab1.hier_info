@@ -1,0 +1,34 @@
+|Block1
+NEG_B <= 7400:inst1.1
+B => 7400:inst1.3
+B => 7400:inst1.2
+B => 7400:inst.3
+Z <= 7400:inst3.1
+C => 7400:inst2.3
+A => 7400:inst.2
+
+
+|Block1|7400:inst1
+1 <= 4.DB_MAX_OUTPUT_PORT_TYPE
+2 => 4.IN0
+3 => 4.IN1
+
+
+|Block1|7400:inst3
+1 <= 4.DB_MAX_OUTPUT_PORT_TYPE
+2 => 4.IN0
+3 => 4.IN1
+
+
+|Block1|7400:inst2
+1 <= 4.DB_MAX_OUTPUT_PORT_TYPE
+2 => 4.IN0
+3 => 4.IN1
+
+
+|Block1|7400:inst
+1 <= 4.DB_MAX_OUTPUT_PORT_TYPE
+2 => 4.IN0
+3 => 4.IN1
+
+
