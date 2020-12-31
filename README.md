@@ -37,3 +37,16 @@
 
 ### lab9
 - Advanced Encryption Standard (AES)
+
+### final project
+- I wanna
+- feature: 
+    - press A to go left, D to go right, W to jump, J to shoot, R to reset
+    - type in cheat code "finala" to switch to the god mode (won't die)
+    - touch the checkpoint to save
+    - death counter at the upper left corner
+    - some spikes are weak and can be shot
+    - some spikes might appear somewhere you don't expect
+    - some spikes might disappear randomly when you shoot the switches (blocks with different color)
+    - there is a hidden bonus scene when you pass the game
+    - sound effect as you shoot, die, or go to the next scene
