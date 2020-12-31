@@ -1,0 +1,3 @@
+Info (10281): Verilog HDL Declaration information at carry_lookahead_adder.sv(9): object "C4" differs only in case from object "c4" in the same scope File: D:/Quartus/ECE385/lab4/ece385sp16_lab4_adders/carry_lookahead_adder.sv Line: 9
+Info (10281): Verilog HDL Declaration information at carry_lookahead_adder.sv(9): object "C8" differs only in case from object "c8" in the same scope File: D:/Quartus/ECE385/lab4/ece385sp16_lab4_adders/carry_lookahead_adder.sv Line: 9
+Info (10281): Verilog HDL Declaration information at carry_lookahead_adder.sv(9): object "C12" differs only in case from object "c12" in the same scope File: D:/Quartus/ECE385/lab4/ece385sp16_lab4_adders/carry_lookahead_adder.sv Line: 9

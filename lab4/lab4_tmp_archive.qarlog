@@ -1,0 +1,29 @@
+Quartus Prime Archive log --	D:/Quartus/ECE385/lab4/lab4_tmp_archive.qarlog
+
+Archive:	D:/Quartus/ECE385/lab4/lab4_tmp_archive.qar
+Date:		Wed Oct 14 10:27:11 2020
+Quartus Prime		18.0.0 Build 614 04/24/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+D:/Quartus/ECE385/lab4/ece385sp16_lab4_adders/HexDriver.sv
+D:/Quartus/ECE385/lab4/ece385sp16_lab4_adders/carry_lookahead_adder.sv
+D:/Quartus/ECE385/lab4/ece385sp16_lab4_adders/carry_select_adder.sv
+D:/Quartus/ECE385/lab4/ece385sp16_lab4_adders/lab4_adders_toplevel.sv
+D:/Quartus/ECE385/lab4/ece385sp16_lab4_adders/ripple_adder.sv
+D:/Quartus/ECE385/lab4/lab4.qpf
+D:/Quartus/ECE385/lab4/lab4.qsf
+D:/Quartus/ECE385/lab4/logic_processor_4bit/testbench.sv
+D:/Quartus/ECE385/lab4/logic_processor_4bit/testbench_8.sv
+D:/Quartus/ECE385/lab4/testbench_adder.sv
+D:/Quartus/ECE385/lab4/testbench_ra.sv
+d:/quartus/quartus/bin64/assignment_defaults.qdf
+	======= Total: 12 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Wed Oct 14 10:27:13 2020
+Source archive file:	D:/Quartus/ECE385/lab4/lab4_tmp_archive.qar
+Archive was extracted into	E:/ECE385_lab2/Zhou_Qinren_Zhang_Yichi/
+		 - successfully.
