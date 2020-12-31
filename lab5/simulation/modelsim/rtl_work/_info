@@ -1,0 +1,288 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Quartus/ECE385/lab5/simulation/modelsim
+vADD_SUB9
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1603899190
+!i10b 1
+!s100 VTL@3I1o90?[_XS`LGP5P1
+I]<QLh>R_f:70kj<kV<`l[0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 !s105 ADD_SUB_sv_unit
+S1
+R0
+Z5 w1603857961
+Z6 8D:/Quartus/ECE385/lab5/ADD_SUB.sv
+Z7 FD:/Quartus/ECE385/lab5/ADD_SUB.sv
+L0 1
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1603899190.000000
+Z10 !s107 D:/Quartus/ECE385/lab5/ADD_SUB.sv|
+Z11 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Quartus/ECE385/lab5|D:/Quartus/ECE385/lab5/ADD_SUB.sv|
+!i113 1
+Z12 o-sv -work work
+Z13 !s92 -sv -work work +incdir+D:/Quartus/ECE385/lab5
+Z14 tCvgOpt 0
+n@a@d@d_@s@u@b9
+vcontrol
+R1
+R2
+!i10b 1
+!s100 [XNhGAMM1zWa=RZ0T>IG<2
+IEE=:J:376gL>Y?ng?d^UW3
+R3
+!s105 control__sv_unit
+S1
+R0
+w1603887451
+8D:/Quartus/ECE385/lab5/control_.sv
+FD:/Quartus/ECE385/lab5/control_.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+!s107 D:/Quartus/ECE385/lab5/control_.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Quartus/ECE385/lab5|D:/Quartus/ECE385/lab5/control_.sv|
+!i113 1
+R12
+R13
+R14
+vDreg
+R1
+R2
+!i10b 1
+!s100 [[ldN>>KdMZ;K[n<KR8cB2
+ICZ4BnaU1QYH6O<lRG8D;32
+R3
+!s105 Dreg_sv_unit
+S1
+R0
+w1603170566
+8D:/Quartus/ECE385/lab5/Dreg.sv
+FD:/Quartus/ECE385/lab5/Dreg.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+!s107 D:/Quartus/ECE385/lab5/Dreg.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Quartus/ECE385/lab5|D:/Quartus/ECE385/lab5/Dreg.sv|
+!i113 1
+R12
+R13
+R14
+n@dreg
+vfull_adder
+R1
+R2
+!i10b 1
+!s100 Ae7LeWR[Ij9Y_G@1EP3cB0
+IYzZdTDQL0OZkj@AaTkJlj3
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 27
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vHexDriver
+R1
+Z15 !s110 1603899189
+!i10b 1
+!s100 ^DddjRd7Wla]U<SlP;mT@0
+IYh_:NPaA>=[i];Z:i3=3^1
+R3
+!s105 HexDriver_sv_unit
+S1
+R0
+w1472679712
+8D:/Quartus/ECE385/lab5/HexDriver.sv
+FD:/Quartus/ECE385/lab5/HexDriver.sv
+L0 1
+R8
+r1
+!s85 0
+31
+Z16 !s108 1603899189.000000
+!s107 D:/Quartus/ECE385/lab5/HexDriver.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Quartus/ECE385/lab5|D:/Quartus/ECE385/lab5/HexDriver.sv|
+!i113 1
+R12
+R13
+R14
+n@hex@driver
+vlab5_toplevel
+R1
+R2
+!i10b 1
+!s100 b3HYBWWmZZo21^6L2TYd_1
+IGU:HCdJoK4DoNKRT13ldD1
+R3
+!s105 lab5_toplevel_sv_unit
+S1
+R0
+w1603888075
+8D:/Quartus/ECE385/lab5/lab5_toplevel.sv
+FD:/Quartus/ECE385/lab5/lab5_toplevel.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+!s107 D:/Quartus/ECE385/lab5/lab5_toplevel.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Quartus/ECE385/lab5|D:/Quartus/ECE385/lab5/lab5_toplevel.sv|
+!i113 1
+R12
+R13
+R14
+vreg_8
+R1
+R15
+!i10b 1
+!s100 AXDzj?_?eZ4hKcKof@=bm2
+ICgWOngRJif>f4>jlFV5H[1
+R3
+!s105 Reg_8_sv_unit
+S1
+R0
+w1602562225
+8D:/Quartus/ECE385/lab5/Reg_8.sv
+FD:/Quartus/ECE385/lab5/Reg_8.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R16
+!s107 D:/Quartus/ECE385/lab5/Reg_8.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Quartus/ECE385/lab5|D:/Quartus/ECE385/lab5/Reg_8.sv|
+!i113 1
+R12
+R13
+R14
+vsync
+R1
+R15
+!i10b 1
+!s100 2W5Vz0:F6ckE2`eJOTK5l1
+I=PeJ7f0Qo<<895dWA[gDB0
+R3
+Z17 !s105 Synchronizers_sv_unit
+S1
+R0
+Z18 w1473642985
+Z19 8D:/Quartus/ECE385/lab5/Synchronizers.sv
+Z20 FD:/Quartus/ECE385/lab5/Synchronizers.sv
+L0 4
+R8
+r1
+!s85 0
+31
+R16
+Z21 !s107 D:/Quartus/ECE385/lab5/Synchronizers.sv|
+Z22 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Quartus/ECE385/lab5|D:/Quartus/ECE385/lab5/Synchronizers.sv|
+!i113 1
+R12
+R13
+R14
+vsync_r0
+R1
+R15
+!i10b 1
+!s100 IGd9f_F;JNjVBLQ@DAnD10
+I=T1G6YB86HX3`CA`j=g312
+R3
+R17
+S1
+R0
+R18
+R19
+R20
+L0 18
+R8
+r1
+!s85 0
+31
+R16
+R21
+R22
+!i113 1
+R12
+R13
+R14
+vsync_r1
+R1
+R15
+!i10b 1
+!s100 1CXiH1DYDbAUS69Ee2j060
+IkKB9S5eoAjjBIPn2SnAhS2
+R3
+R17
+S1
+R0
+R18
+R19
+R20
+L0 39
+R8
+r1
+!s85 0
+31
+R16
+R21
+R22
+!i113 1
+R12
+R13
+R14
+vtestbench
+R1
+R2
+!i10b 1
+!s100 ^>z=NOnIS<@>F7iDT4X1X2
+I7ZXblYm[ah7a3lDagJWG]1
+R3
+!s105 testbench_sv_unit
+S1
+R0
+w1603888073
+8D:/Quartus/ECE385/lab5/testbench.sv
+FD:/Quartus/ECE385/lab5/testbench.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+!s107 D:/Quartus/ECE385/lab5/testbench.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/Quartus/ECE385/lab5|D:/Quartus/ECE385/lab5/testbench.sv|
+!i113 1
+R12
+R13
+R14

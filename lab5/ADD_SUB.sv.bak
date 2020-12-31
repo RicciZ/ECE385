@@ -1,0 +1,38 @@
+module ADD_SUB9(
+					 input [7:0] A,B,
+					 input fn,
+					 output [9:0] S
+					 );
+					 
+	logic [7:0] c,BB;
+	
+	assign BB = B ^ {8{fn}};
+	
+	full_adder Fa0(.x(A[0]), .y(BB[0]), .cin(  fn), .s(S[0]), .cout(c[0]));
+   full_adder Fa1(.x(A[1]), .y(BB[1]), .cin(c[0]), .s(S[1]), .cout(c[1]));
+   full_adder Fa2(.x(A[2]), .y(BB[2]), .cin(c[1]), .s(S[2]), .cout(c[2]));
+   full_adder Fa3(.x(A[3]), .y(BB[3]), .cin(c[2]), .s(S[3]), .cout(c[3]));
+
+	full_adder Fa4(.x(A[4]), .y(BB[4]), .cin(c[3]), .s(S[4]), .cout(c[4]));
+   full_adder Fa5(.x(A[5]), .y(BB[5]), .cin(c[4]), .s(S[5]), .cout(c[5]));
+   full_adder Fa6(.x(A[6]), .y(BB[6]), .cin(c[5]), .s(S[6]), .cout(c[6]));
+   full_adder Fa7(.x(A[7]), .y(BB[7]), .cin(c[6]), .s(S[7]), .cout(c[7]));
+	
+   full_adder fa7(.x(A[7]), .y(BB[7]), .cin(c[7]), .s(S[8]), .cout()    );
+
+
+endmodule
+
+
+module full_adder(
+                  input x,
+                  input y,
+                  input cin,
+                  output logic s,
+                  output logic cout
+                  );
+
+    assign s    = x ^ y ^ cin;
+    assign cout = (x&y) | (x&cin) | (y&cin);
+
+endmodule

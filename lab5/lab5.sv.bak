@@ -1,0 +1,10 @@
+module lab5_multuplier
+(
+input logic Clk;
+input logic Reset, Run, ClearA_LoadB;
+input logic [7:0] S;
+output logic [7:0] Aval, Bval;
+output logic X;
+output logic [6:0] AhexL, AhexU, BhexL, BhexU;
+);
+

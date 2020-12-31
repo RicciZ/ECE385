@@ -1,0 +1,52 @@
+module control (input CLk, Reset, Run, ClearA_LoadB, M,
+					 output logic Load_A, Load_X, Shift_En, fn);
+					 
+		enum logic [3:0] {} curr_state, next_state;
+		logic [3:0] 
+		
+		always_ff @ (posedge Clk)
+		begin
+			if (Reset)
+				curr_state <= A;
+			else
+				curr_state <= next_state;
+		end
+		
+		
+		always_comb
+		begin
+			next_state = curr_state;
+			unique case (curr_state)
+			
+				A:		if (Run)
+							next_state = B;		// wait state
+				B:		if (M)
+							next_state = C;
+						if (~M)
+							next_state = D;		// start state
+				C:		Load_A = 1'b1;
+						Load_X = 1'b1;
+						shift_En = 1'b0;
+						next_state = D;			// add state
+				D:		Load_A = 1'b0;
+						Load_X = 1'b0;
+						shift_En = 1'b1;
+						if (M)
+							next_state = C;
+						if (~M)
+							next_state = D;		// shift state
+				E:		Load_A = 1'b0;
+				      Load_X = 1'b0;
+				      shift_En = 1'b0;			// end state
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+endmodule
