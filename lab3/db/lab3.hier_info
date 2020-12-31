@@ -1,0 +1,343 @@
+|lab3
+RA0 <= A.DB_MAX_OUTPUT_PORT_TYPE
+D3 => storage_unit:inst1.D3
+D2 => storage_unit:inst1.D2
+F0 => logic_unit:inst.F0
+F1 => logic_unit:inst.F1
+F2 => logic_unit:inst.F2
+R0 => routing_unit:inst2.R0
+R1 => routing_unit:inst2.R1
+D1 => storage_unit:inst1.D1
+D0 => storage_unit:inst1.D0
+CLK => storage_unit:inst1.CLK
+CLK => control_logic:inst3.CLK
+LOAD_A => storage_unit:inst1.LOADA
+EXECUTE => control_logic:inst3.Execute
+LOAD_B => storage_unit:inst1.LOADB
+RA1 <= storage_unit:inst1.RA1
+RA2 <= storage_unit:inst1.RA2
+RA3 <= storage_unit:inst1.RA3
+RB0 <= B.DB_MAX_OUTPUT_PORT_TYPE
+RB1 <= storage_unit:inst1.RB1
+RB2 <= storage_unit:inst1.RB2
+RB3 <= storage_unit:inst1.RB3
+
+
+|lab3|storage_unit:inst1
+RA3 <= 74194:inst.QA
+NEWA => 74194:inst.SRSI
+D2 => 74194:inst.B
+D2 => 74194:inst1.B
+D1 => 74194:inst.C
+D1 => 74194:inst1.C
+CLK => 74194:inst.CLK
+CLK => 74194:inst1.CLK
+D0 => 74194:inst.D
+D0 => 74194:inst1.D
+LOADA => 74194:inst.S1
+LOADA => inst2.IN0
+S => inst2.IN1
+S => inst4.IN0
+D3 => 74194:inst.A
+D3 => 74194:inst1.A
+RA2 <= 74194:inst.QB
+RA1 <= 74194:inst.QC
+RA0 <= 74194:inst.QD
+RB3 <= 74194:inst1.QA
+NEWB => 74194:inst1.SRSI
+LOADB => 74194:inst1.S1
+LOADB => inst4.IN1
+RB2 <= 74194:inst1.QB
+RB1 <= 74194:inst1.QC
+RB0 <= 74194:inst1.QD
+
+
+|lab3|storage_unit:inst1|74194:inst
+QD <= 38.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => 38.ACLR
+CLRN => 39.ACLR
+CLRN => 40.ACLR
+CLRN => 41.ACLR
+CLK => 38.CLK
+CLK => 39.CLK
+CLK => 40.CLK
+CLK => 41.CLK
+S1 => 13.IN0
+S1 => 52.IN0
+S1 => 56.IN0
+S1 => 60.IN0
+S1 => 64.IN0
+S1 => 63.IN1
+S1 => 59.IN2
+S1 => 55.IN2
+S1 => 51.IN2
+S0 => 12.IN0
+S0 => 50.IN1
+S0 => 62.IN0
+S0 => 63.IN0
+S0 => 58.IN1
+S0 => 59.IN1
+S0 => 54.IN1
+S0 => 55.IN1
+S0 => 51.IN1
+SLSI => 52.IN2
+SRSI => 62.IN2
+A => 63.IN2
+B => 59.IN0
+C => 55.IN0
+D => 51.IN0
+QC <= 39.DB_MAX_OUTPUT_PORT_TYPE
+QB <= 40.DB_MAX_OUTPUT_PORT_TYPE
+QA <= 41.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3|storage_unit:inst1|74194:inst1
+QD <= 38.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => 38.ACLR
+CLRN => 39.ACLR
+CLRN => 40.ACLR
+CLRN => 41.ACLR
+CLK => 38.CLK
+CLK => 39.CLK
+CLK => 40.CLK
+CLK => 41.CLK
+S1 => 13.IN0
+S1 => 52.IN0
+S1 => 56.IN0
+S1 => 60.IN0
+S1 => 64.IN0
+S1 => 63.IN1
+S1 => 59.IN2
+S1 => 55.IN2
+S1 => 51.IN2
+S0 => 12.IN0
+S0 => 50.IN1
+S0 => 62.IN0
+S0 => 63.IN0
+S0 => 58.IN1
+S0 => 59.IN1
+S0 => 54.IN1
+S0 => 55.IN1
+S0 => 51.IN1
+SLSI => 52.IN2
+SRSI => 62.IN2
+A => 63.IN2
+B => 59.IN0
+C => 55.IN0
+D => 51.IN0
+QC <= 39.DB_MAX_OUTPUT_PORT_TYPE
+QB <= 40.DB_MAX_OUTPUT_PORT_TYPE
+QA <= 41.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3|routing_unit:inst2
+NEWA <= 74153:inst.1Y
+A => 74153:inst.1C1
+A => 74153:inst.1C0
+A => 74153:inst.2C3
+B => 74153:inst.2C0
+B => 74153:inst.2C2
+B => 74153:inst.1C3
+F => 74153:inst.1C2
+F => 74153:inst.2C1
+R1 => 74153:inst.B
+R0 => 74153:inst.A
+NEWB <= 74153:inst.2Y
+
+
+|lab3|routing_unit:inst2|74153:inst
+1Y <= 9.DB_MAX_OUTPUT_PORT_TYPE
+1GN => 26.IN0
+B => 27.IN0
+A => 29.IN0
+1C0 => 1.IN3
+1C1 => 2.IN3
+1C2 => 3.IN3
+1C3 => 4.IN3
+2Y <= 10.DB_MAX_OUTPUT_PORT_TYPE
+2C0 => 5.IN0
+2GN => 25.IN0
+2C1 => 6.IN0
+2C2 => 7.IN0
+2C3 => 8.IN0
+
+
+|lab3|logic_unit:inst
+OUT <= 74151:MX.Y
+F2 => 74151:MX.C
+F1 => 74151:MX.B
+F0 => 74151:MX.A
+A => 7402:NOR1.2
+A => 7400:NAND1.2
+A => 7486:XOR1.2
+B => 7402:NOR1.3
+B => 7400:NAND1.3
+B => 7486:XOR1.3
+
+
+|lab3|logic_unit:inst|74151:MX
+c => f74151:sub.c
+b => f74151:sub.b
+a => f74151:sub.a
+d[0] => f74151:sub.d[0]
+d[1] => f74151:sub.d[1]
+d[2] => f74151:sub.d[2]
+d[3] => f74151:sub.d[3]
+d[4] => f74151:sub.d[4]
+d[5] => f74151:sub.d[5]
+d[6] => f74151:sub.d[6]
+d[7] => f74151:sub.d[7]
+gn => ~NO_FANOUT~
+y <= f74151:sub.y
+wn <= f74151:sub.wn
+
+
+|lab3|logic_unit:inst|74151:MX|f74151:sub
+WN <= 85.DB_MAX_OUTPUT_PORT_TYPE
+D0 => 59.IN0
+A => 19.IN0
+D1 => 60.IN0
+B => 17.IN0
+D2 => 61.IN0
+D3 => 62.IN0
+C => 16.IN0
+D4 => 63.IN0
+D5 => 64.IN0
+D6 => 65.IN0
+D7 => 66.IN0
+GN => 13.IN0
+y <= 82.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3|logic_unit:inst|7402:NOR1
+1 <= 4.DB_MAX_OUTPUT_PORT_TYPE
+2 => 4.IN0
+3 => 4.IN1
+
+
+|lab3|logic_unit:inst|7400:NAND2
+1 <= 4.DB_MAX_OUTPUT_PORT_TYPE
+2 => 4.IN0
+3 => 4.IN1
+
+
+|lab3|logic_unit:inst|7400:NAND1
+1 <= 4.DB_MAX_OUTPUT_PORT_TYPE
+2 => 4.IN0
+3 => 4.IN1
+
+
+|lab3|logic_unit:inst|7402:NOR2
+1 <= 4.DB_MAX_OUTPUT_PORT_TYPE
+2 => 4.IN0
+3 => 4.IN1
+
+
+|lab3|logic_unit:inst|7486:XOR1
+1 <= 4.DB_MAX_OUTPUT_PORT_TYPE
+2 => 4.IN0
+3 => 4.IN1
+
+
+|lab3|logic_unit:inst|7400:NOT
+1 <= 4.DB_MAX_OUTPUT_PORT_TYPE
+2 => 4.IN0
+3 => 4.IN1
+
+
+|lab3|control_logic:inst3
+S <= 7402:inst11.1
+CLK => 7474:DFF.1CLK
+CLK => 7474:DFF.2CLK
+CLK => 7474:inst.1CLK
+CLK => 7474:inst.2CLK
+Execute => 7427:inst5.2
+Execute => 7400:inst6.2
+
+
+|lab3|control_logic:inst3|7402:inst11
+1 <= 4.DB_MAX_OUTPUT_PORT_TYPE
+2 => 4.IN0
+3 => 4.IN1
+
+
+|lab3|control_logic:inst3|7427:inst8
+1 <= 5.DB_MAX_OUTPUT_PORT_TYPE
+4 => 5.IN0
+3 => 5.IN1
+2 => 5.IN2
+
+
+|lab3|control_logic:inst3|7474:inst
+1Q <= 9.DB_MAX_OUTPUT_PORT_TYPE
+1CLRN => 9.ACLR
+1CLK => 9.CLK
+1D => 9.DATAIN
+1PRN => 9.PRESET
+1QN <= 16.DB_MAX_OUTPUT_PORT_TYPE
+2Q <= 10.DB_MAX_OUTPUT_PORT_TYPE
+2CLRN => 10.ACLR
+2CLK => 10.CLK
+2D => 10.DATAIN
+2PRN => 10.PRESET
+2QN <= 15.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3|control_logic:inst3|7400:inst15
+1 <= 4.DB_MAX_OUTPUT_PORT_TYPE
+2 => 4.IN0
+3 => 4.IN1
+
+
+|lab3|control_logic:inst3|7400:inst14
+1 <= 4.DB_MAX_OUTPUT_PORT_TYPE
+2 => 4.IN0
+3 => 4.IN1
+
+
+|lab3|control_logic:inst3|7400:inst6
+1 <= 4.DB_MAX_OUTPUT_PORT_TYPE
+2 => 4.IN0
+3 => 4.IN1
+
+
+|lab3|control_logic:inst3|7474:DFF
+1Q <= 9.DB_MAX_OUTPUT_PORT_TYPE
+1CLRN => 9.ACLR
+1CLK => 9.CLK
+1D => 9.DATAIN
+1PRN => 9.PRESET
+1QN <= 16.DB_MAX_OUTPUT_PORT_TYPE
+2Q <= 10.DB_MAX_OUTPUT_PORT_TYPE
+2CLRN => 10.ACLR
+2CLK => 10.CLK
+2D => 10.DATAIN
+2PRN => 10.PRESET
+2QN <= 15.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3|control_logic:inst3|7402:inst10
+1 <= 4.DB_MAX_OUTPUT_PORT_TYPE
+2 => 4.IN0
+3 => 4.IN1
+
+
+|lab3|control_logic:inst3|7427:inst5
+1 <= 5.DB_MAX_OUTPUT_PORT_TYPE
+4 => 5.IN0
+3 => 5.IN1
+2 => 5.IN2
+
+
+|lab3|control_logic:inst3|7486:inst12
+1 <= 4.DB_MAX_OUTPUT_PORT_TYPE
+2 => 4.IN0
+3 => 4.IN1
+
+
+|lab3|control_logic:inst3|7400:inst7
+1 <= 4.DB_MAX_OUTPUT_PORT_TYPE
+2 => 4.IN0
+3 => 4.IN1
+
+
