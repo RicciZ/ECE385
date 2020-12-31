@@ -1,14 +1,14 @@
-Analysis & Synthesis Status : Successful - Wed Dec 23 09:07:15 2020
+Analysis & Synthesis Status : Successful - Thu Dec 31 09:22:02 2020
 Quartus Prime Version : 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 Revision Name : iwanna
 Top-level Entity Name : iwanna
 Family : Cyclone IV E
-Total logic elements : 4,689
-    Total combinational functions : 3,709
-    Dedicated logic registers : 2,250
-Total registers : 2250
-Total pins : 132
+Total logic elements : 7,033
+    Total combinational functions : 6,016
+    Dedicated logic registers : 2,607
+Total registers : 2607
+Total pins : 138
 Total virtual pins : 0
-Total memory bits : 192,488
-Embedded Multiplier 9-bit elements : 0
-Total PLLs : 2
+Total memory bits : 2,678,840
+Embedded Multiplier 9-bit elements : 12
+Total PLLs : 3

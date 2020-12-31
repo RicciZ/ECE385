@@ -1,8 +1,8 @@
-module paint_background(input logic [3:0] color,output [7:0] r,g,b);
+module paint_background(input logic [3:0] bgcolor,output [7:0] r,g,b);
 
 	always_comb
 	begin
-		case (color)
+		case (bgcolor)
 			4'b0000:
 				 begin
 				 r = 8'hb3;

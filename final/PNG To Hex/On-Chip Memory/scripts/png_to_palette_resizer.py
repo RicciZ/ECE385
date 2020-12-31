@@ -12,9 +12,9 @@ filename = input("What's the image name? ")
 new_w, new_h = map(int, input("What's the new height x width? Like 28 28. ").split(' '))
 # palette_hex = ['0xFFFFFF','0x000000', '0x3F0606', '0xAB0000', '0x5A2712', '0xFFC78F', '0x154269', '0x111A8F'] # for kid
 # palette_hex = ['0xB35810','0xEC8811', '0xFFA82A', '0xE4A542', '0xE9C565', '0xF9E182', '0xFFC85F', '0xFFD46A'] # for background
-# palette_hex = ['0xFFFFFF','0x000000', '0xEFEBEF', '0x949694', '0xD6D7D6'] # for spike
+palette_hex = ['0xFFFFFF','0x000000', '0xEFEBEF', '0x949694', '0xD6D7D6'] # for spike
 # palette_hex = ['0xFFFFFF','0xABF4F9'] # for block
-palette_hex = ['0xFFFFFF','0x000000', '0x737173', '0xDEDBDE', '0xEF4110', '0xDED742', '0x7B8E29', '0x00FF00'] # for checkpoint
+# palette_hex = ['0xFFFFFF','0x000000', '0x737173', '0xDEDBDE', '0xEF4110', '0xDED742', '0x7B8E29', '0x00FF00'] # for checkpoint
 # palette_hex = ['0xA5539F','0x000000', '0xFFFFFF'] # for dead
 palette_rgb = [hex_to_rgb(color) for color in palette_hex]
 

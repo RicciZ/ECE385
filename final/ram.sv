@@ -94,14 +94,14 @@ endmodule
 
 module  spike
 (
-		input [10:0] read_address,
+		input [11:0] read_address,
 		input Clk,
 
 		output logic [3:0] data_Out
 );
 
 		// 64x32=2048
-		logic [3:0] mem [0:2047];
+		logic [3:0] mem [0:4096];
 
 		initial
 		begin

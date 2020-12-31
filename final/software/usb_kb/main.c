@@ -520,7 +520,7 @@ int main(void)
 		printf("\nfirst four keycode values are %08x\n",keycode);
 		// We only need the first keycode, which is at the lower byte of keycode.
 		// Send the keycode to hardware via PIO.
-		*keycode_base = keycode & 0xffff;
+		*keycode_base = keycode & 0xffffffff;
 
 		usleep(200);//usleep(5000);
 		usb_ctl_val = UsbRead(ctl_reg);

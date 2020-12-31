@@ -2,8 +2,8 @@
 <sch:Settings xmlns:sch="http://www.altera.com/embeddedsw/bsp/schema">
         <BspType>hal</BspType>
         <BspVersion>default</BspVersion>
-        <BspGeneratedTimeStamp>2020-12-22 15:34:59</BspGeneratedTimeStamp>
-        <BspGeneratedUnixTimeStamp>1608622499954</BspGeneratedUnixTimeStamp>
+        <BspGeneratedTimeStamp>2020-12-30 18:36:04</BspGeneratedTimeStamp>
+        <BspGeneratedUnixTimeStamp>1609324564102</BspGeneratedUnixTimeStamp>
         <BspGeneratedLocation>D:\github\ECE385\final\software\usb_kb_bsp</BspGeneratedLocation>
         <BspSettingsFile>settings.bsp</BspSettingsFile>
         <SopcDesignFile>..\..\iwanna_soc.sopcinfo</SopcDesignFile>

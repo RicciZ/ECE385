@@ -44,16 +44,66 @@ module iwanna( input               CLOCK_50,
                                  DRAM_CKE,     //SDRAM Clock Enable
                                  DRAM_WE_N,    //SDRAM Write Enable
                                  DRAM_CS_N,    //SDRAM Chip Select
-                                 DRAM_CLK      //SDRAM Clock
-                    );
+                                 DRAM_CLK,      //SDRAM Clock
+				 // WM8731 Audio Interface
+				 inout  wire         I2C_SDAT,
+				 output logic        I2C_SCLK, AUD_XCK, AUD_BCLK, AUD_DACLRCK, AUD_DACDAT
+             );
     
-    logic Reset_h,Clk,jump,is_right,is_block,is_spike,is_check,is_dead,dead,check,
-			 shoot,restart,checking,frame_clk;
+    logic Reset_h,Clk,
+			 is_block,is_spike,is_check,
+			 jump,is_right,is_dead,dead,check,god,button,
+			 shoot,restart,checking,reset1,reset2,reset3,victory,
+			 hit,thorn1,thorn2,thorn3,thorn4;
+			 
     logic [31:0] keycode;
-    logic [9:0] DrawX,DrawY,man_x,man_y,map_x,map_y,check_x,check_y;
-	 logic [1:0] move;
-	 logic [1:0] man_state,man_graph_counter;
+	 
+    logic [9:0] DrawX,DrawY,
+					 man_x,man_y,
+					 mapx,mapy,
+					 check_x,check_y;
+					 
+	 logic [1:0] move,
+					 mapspikestate,
+					 man_state,
+					 man_graph_counter,
+					 inmap;
+	 
 	 logic [3:0] barrier,tenths,ones;
+	 
+	 // Audio Control
+	 logic [2:0] sound_select;
+	 logic bullet;
+	 
+	 // trap
+	 logic weak_2,
+			 weak_3,
+			 weak_4,
+			 weak_5,
+			 weak_6,
+			 weak_7;
+			 
+	 logic getshot2,
+			 getshot3,
+			 getshot4,
+			 getshot5,
+			 getshot6,
+			 getshot7;
+			 
+	 logic is_trap;
+	 
+	 logic [1:0] trapspikestate;
+					 
+	 logic [9:0] trap_x,trap_y;
+	 
+	 // bullet
+	 logic bullet1_active,bullet1_off,
+			 bullet2_active,bullet2_off,
+			 bullet3_active,bullet3_off;
+			 			 
+	 logic [9:0] bullet1_x,bullet1_y,
+	             bullet2_x,bullet2_y,
+	             bullet3_x,bullet3_y;
 	 
     assign Clk = CLOCK_50;
     always_ff @ (posedge Clk) begin
@@ -116,22 +166,35 @@ module iwanna( input               CLOCK_50,
     // TODO: Fill in the connections for the rest of the modules 
     VGA_controller vga_controller_instance(.*,.Reset(Reset_h));
     
-    color_mapper color_instance(.*);
+    color_mapper color_instance(.*,.Reset(Reset_h),.frame_clk(VGA_VS));
     // Display keycode on hex display
     HexDriver hex_inst_0 (keycode[3:0], HEX0);
     HexDriver hex_inst_1 (keycode[7:4], HEX1);
 	 
 	 keycodeDecoder 	kcd(.*,.Reset(Reset_h));
-	 man 					man0(.*,.Reset(Reset_h),.frame_clk(VGA_VS));
-	 map 					map0(.*);
-	 death_counter    deathcounter0(.*,.Reset(Reset_h));
-//	 frameClk 			frameclk0(.*,.Reset(Reset_h));
 	 
-    
-    /**************************************************************************************
-        ATTENTION! Please answer the following quesiton in your lab report! Points will be allocated for the answers!
-        Hidden Question #1/2:
-        What are the advantages and/or disadvantages of using a USB interface over PS/2 interface to
-             connect to the keyboard? List any two.  Give an answer in your Post-Lab.
-    **************************************************************************************/
+	 man 					man0(.*,.Reset(Reset_h),.frame_clk(VGA_VS));
+	 
+	 map 					map0(.*,.Reset(Reset_h));
+	 
+	 death_counter    deathcounter0(.*,.Reset(Reset_h),.frame_clk(VGA_VS));	 
+	 
+	 bullets 			bullets0(.*,.Reset(Reset_h),.frame_clk(VGA_VS));
+	 
+	 istrap				istrap0(.*,.Reset(Reset_h),.frame_clk(VGA_VS));
+	 
+	 randomCounter		randomCounter0(.*,.Reset(Reset_h),.frame_clk(VGA_VS));
+	 
+	 sound_control 	sc0 (.*, .Reset(Reset_h), .gameover(is_dead));
+	 
+	 Sound_Top 			Sound_Top_inst(.clk(Clk), 
+												.reset(KEY[0]), 
+												.SoundSelect(sound_select),
+											   .SDIN(I2C_SDAT), 
+												.SCLK(I2C_SCLK), 
+												.USB_clk(AUD_XCK), 
+											   .BCLK(AUD_BCLK),
+											   .DAC_LR_CLK(AUD_DACLRCK), 
+												.DAC_DATA(AUD_DACDAT));
+	 
 endmodule

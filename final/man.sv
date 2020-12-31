@@ -15,8 +15,12 @@ module man (
 					output logic			is_right,
 												is_dead,
 												checking,
-					input logic [9:0]		map_x,
-												map_y
+					input logic [9:0]		mapx,
+												mapy,
+					
+					input logic				reset1,
+												reset2,
+												reset3
 );
 				  
 				  
@@ -49,8 +53,8 @@ module man (
 		always_ff @ (posedge Clk)
 		begin
 			if (Reset) begin
-				man_x <= 10'd3*10'd32;
-				man_y <= 10'd6*10'd32;
+				man_x <= 10'd1*32;
+				man_y <= 10'd6*32;
 				jump_state <= 4'b0;
 				man_state <= 2'b0; 
 				man_graph_counter <= 2'b0;
@@ -60,8 +64,8 @@ module man (
 				jump_gap <= 1'b0;
 				dead_state <= 1'b0;
 				check_state <= 1'b0;
-				mapX <= 10'd3*10'd32;
-				mapY <= 10'd6*10'd32;
+				mapX <= 10'd1*32;
+				mapY <= 10'd6*32;
 			end
 			else if (restart) begin
 				man_x <= mapX;
@@ -92,6 +96,23 @@ module man (
 				check_state <= check_state_next;
 				mapX <= mapX_next;
 				mapY <= mapY_next;
+				if (is_dead) begin
+					man_x <= man_x;
+					man_y <= man_y;
+				end
+			end
+			
+			if (reset1) begin
+				man_x <= 10'd7;
+				man_y <= 10'd1*32;
+			end
+			else if (reset2) begin
+				man_x <= 10'd605;
+				man_y <= 10'd10*32+10'd20;
+			end
+			else if (reset3) begin
+				man_x <= 10'd270;
+				man_y <=	10'd10;
 			end
 		end
 		
@@ -276,14 +297,13 @@ module man (
 		always_comb
 		begin
 			if (check) begin
-				mapX_next = map_x;
-				mapY_next = map_y;
+				mapX_next = mapx + 10'd7;
+				mapY_next = mapy;
 			end
 			else begin
 				mapX_next = mapX;
 				mapY_next = mapY;
 			end
 		end
-
 		
 endmodule
