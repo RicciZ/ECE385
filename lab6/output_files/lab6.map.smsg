@@ -1,0 +1,10 @@
+Warning (10273): Verilog HDL warning at HexDriver.sv(23): extended using "x" or "z" File: D:/Quartus/ECE385/lab6/HexDriver.sv Line: 23
+Info (10281): Verilog HDL Declaration information at datapath.sv(5): object "PCMUX" differs only in case from object "PCmux" in the same scope File: D:/Quartus/ECE385/lab6/datapath.sv Line: 5
+Info (10281): Verilog HDL Declaration information at datapath.sv(6): object "DRMUX" differs only in case from object "DRmux" in the same scope File: D:/Quartus/ECE385/lab6/datapath.sv Line: 6
+Info (10281): Verilog HDL Declaration information at datapath.sv(6): object "SR1MUX" differs only in case from object "SR1mux" in the same scope File: D:/Quartus/ECE385/lab6/datapath.sv Line: 6
+Info (10281): Verilog HDL Declaration information at datapath.sv(6): object "SR2MUX" differs only in case from object "SR2mux" in the same scope File: D:/Quartus/ECE385/lab6/datapath.sv Line: 6
+Info (10281): Verilog HDL Declaration information at datapath.sv(6): object "ADDR1MUX" differs only in case from object "ADDR1mux" in the same scope File: D:/Quartus/ECE385/lab6/datapath.sv Line: 6
+Info (10281): Verilog HDL Declaration information at datapath.sv(5): object "ADDR2MUX" differs only in case from object "ADDR2mux" in the same scope File: D:/Quartus/ECE385/lab6/datapath.sv Line: 5
+Info (10281): Verilog HDL Declaration information at BEN.sv(8): object "n" differs only in case from object "N" in the same scope File: D:/Quartus/ECE385/lab6/BEN.sv Line: 8
+Info (10281): Verilog HDL Declaration information at BEN.sv(8): object "z" differs only in case from object "Z" in the same scope File: D:/Quartus/ECE385/lab6/BEN.sv Line: 8
+Info (10281): Verilog HDL Declaration information at BEN.sv(8): object "p" differs only in case from object "P" in the same scope File: D:/Quartus/ECE385/lab6/BEN.sv Line: 8

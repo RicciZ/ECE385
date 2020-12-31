@@ -1,0 +1,48 @@
+module BEN(
+				input logic [15:0] BUS,
+				input logic LD_BEN, LD_CC, Clk, Reset,
+				input logic [2:0] IR,
+				output logic out
+				);
+				
+	logic n,z,p,N,Z,P;
+				
+	always_comb
+	begin
+		if (BUS == 16'h0)
+			begin
+				n = 1'b0;
+				z = 1'b1;
+				p = 1'b0;
+			end
+		else if (BUS[15] == 1'b1)
+			begin
+				n = 1'b1;
+				z = 1'b0;
+				p = 1'b0;
+			end
+		else if (BUS[15] == 1'b0)
+			begin
+				n = 1'b0;
+				z = 1'b0;
+				p = 1'b1;
+			end
+	end
+	
+	always_ff @ (posedge Clk)
+	begin
+		if (Reset)
+			out <= 1'b0;
+		else if (LD_BEN)
+			out <= (({N,Z,P}&IR[2:0]) != 3'b000)
+			
+		if (LD_CC)
+			begin
+				N <= n;
+				Z <= z;
+				P <= p;		
+			end
+	end
+				
+				
+endmodule
