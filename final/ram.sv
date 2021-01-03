@@ -100,8 +100,8 @@ module  spike
 		output logic [3:0] data_Out
 );
 
-		// 64x32=2048
-		logic [3:0] mem [0:4096];
+		// 128x32=4096
+		logic [3:0] mem [0:4095];
 
 		initial
 		begin

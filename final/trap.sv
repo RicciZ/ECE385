@@ -144,7 +144,7 @@ module istrap(input  logic Reset,frame_clk,restart,Clk,
 									weak_5,
 									weak_6,
 									weak_7,
-									
+
 				  output logic [1:0] trapspikestate,
 				  output logic [9:0] trap_x,trap_y
 				 );

@@ -12,21 +12,21 @@ module barrier_detect(input  logic [1:0] inmap,
 							 map[inmap*300+(man_x+23)/32+(man_y+ 5)/32*20]==2'b01 ||
 							 map[inmap*300+(man_x+22)/32+(man_y+19)/32*20]==2'b01 ||
 							 man_x+26>=10'd640)
-							barrier[0] = 1'b0;
+							barrier[0] = 1'b0;		// right
 						if (map[inmap*300+(man_x-1)/32+(man_y+11)/32*20]==2'b01 ||
 							 map[inmap*300+(man_x+3)/32+(man_y+ 5)/32*20]==2'b01 ||
 							 map[inmap*300+(man_x+4)/32+(man_y+19)/32*20]==2'b01 ||
 							 man_x-10'd1<=10'd3)
-							barrier[1] = 1'b0;
+							barrier[1] = 1'b0;		// left
 						if (map[inmap*300+(man_x+ 4)/32+(man_y-1)/32*20]==2'b01 ||
 							 map[inmap*300+(man_x+13)/32+(man_y-1)/32*20]==2'b01 ||
 							 map[inmap*300+(man_x+21)/32+(man_y-1)/32*20]==2'b01 ||
 							 man_y-10'd1<=10'd5)
-							barrier[2] = 1'b0;
+							barrier[2] = 1'b0;		// up
 						if (map[inmap*300+(man_x+ 9)/32+(man_y+24)/32*20]==2'b01 ||
 							 map[inmap*300+(man_x+21)/32+(man_y+24)/32*20]==2'b01 ||
 							 map[inmap*300+(man_x+ 6)/32+(man_y+24)/32*20]==2'b01)
-							barrier[3] = 1'b0;
+							barrier[3] = 1'b0;		// down
 					end
 					else
 					begin
